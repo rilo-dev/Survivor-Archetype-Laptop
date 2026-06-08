@@ -1,0 +1,321 @@
+.splashscreentitle{
+    text-align: center;
+    color: white;
+    border: 4px solid rgba(85, 107, 47, 0.8);
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20%;
+    background-color: rgba(85, 107, 47, 0.8);
+    transition: 0.3s;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.splashscreentitle:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.title-container{
+    text-align: center; 
+}
+
+.navchoices{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    gap: 15px;
+}
+
+.startquiz{
+    text-align: center;
+    color: white;
+    border: 4px solid rgba(85, 107, 47, 0.8);
+    background-color: rgba(85, 107, 47, 0.8);
+    transition: 0.3s;
+    font-size: 40px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    width: 300px;
+}
+
+.startquiz:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.journal{
+    text-align: center;
+    color: white;
+    border: 4px solid rgba(85, 107, 47, 0.8);
+    background-color: rgba(85, 107, 47, 0.8);
+    transition: 0.3s;
+    font-size: 40px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    width: 300px;
+}
+
+.journal:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.settings{
+    text-align: center;
+    color: white;
+    border: 4px solid rgba(85, 107, 47, 0.8);
+    background-color: rgba(85, 107, 47, 0.8);
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    padding: 15px;
+    width: 300px;
+}
+
+.settings:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.settingsbackground{
+    background-color: rgb(162, 167, 104);
+}
+
+h1{
+    color: inherit;
+}
+
+
+label{
+    color: inherit;
+    font-size: 30px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+
+.lightmode{
+    background-color: white;
+    color: black
+}
+
+.settingshomepage{
+    text-align: center;
+    display: inline-block;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: rgba(85, 107, 47, 0.4);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+    font-size: 40px;
+}
+
+
+.settingshomepage:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+
+.journalchoice{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 150px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.builder{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    max-width: 500px;
+    width: 90%;
+}
+
+.builder img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.sheriff{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    max-width: 500px;
+    width: 90%;
+}
+.sheriff img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.trader{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    padding: 15px 30px;
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.trader img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.warlord{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    max-width: 500px;
+    width: 90%;
+    align-items: center;
+
+}
+
+.warlord img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.builder:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.sheriff:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.trader:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.warlord:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.journalreturn{
+    display: inline-block;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    max-width: 500px;
+    width: 90%;
+}
+
+.journalreturn:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.05);
+}
+
+.journalbuilder{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.builderdesc{
+    color:black;
+    text-align: center;
+    margin-top: 10%;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.proscons{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+.builderpros{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    margin-left: 120px;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 40px;
+    margin-top: 0px;
+
+}
+
+.buildercons{
+    display: flex;
+    flex-direction:column;
+    color: red;
+    border: rgba(85, 107, 47, 0.8);
+    background-color: darkolivegreen;
+    padding: 15px 30px;
+    margin-right: 120px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.builderproslist{
+    font-size: 20px;
+    color: black;
+}
+
+.builderconslist{
+    font-size: 20px;
+    color: black;
+}
+
