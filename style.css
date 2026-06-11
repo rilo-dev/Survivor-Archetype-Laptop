@@ -334,6 +334,58 @@ input[type="checkbox"] {
     width: 90%;
 }
 
+.quizpick{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .leadershipquiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
     text-align: center;
+    text-decoration: none;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 20px;
+    border-radius: 18px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.communityquiz{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 20px;
+    border-radius: 18px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.apocalypsequiz{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 20px;
+    border-radius: 18px;
+    font-size: 24px;
+    box-sizing: border-box;
 }
