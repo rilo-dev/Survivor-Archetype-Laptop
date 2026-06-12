@@ -336,6 +336,7 @@ input[type="checkbox"] {
 
 .quizpick{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: stretch;
     gap: 12px;
@@ -388,4 +389,51 @@ input[type="checkbox"] {
     border-radius: 18px;
     font-size: 24px;
     box-sizing: border-box;
+}
+
+
+.quizquestion{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+.quizchoices{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20PX;
+    font-size: 20px;
+
+}
+
+.choice1{
+    text-decoration: none;
+    color: black;
+}
+
+.choice2{
+    text-decoration: none;
+    color: black;
+}
+
+.choice3{
+    text-decoration: none;
+    color: black;
+}
+
+.choice4{
+    text-decoration: none;
+    color: black;
+}
+
+.quizbackground{
+    background-color: darkolivegreen;
+}
+
+p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 20px;
 }
